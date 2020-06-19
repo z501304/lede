@@ -11,9 +11,9 @@ name: 自定义插件
 
 on:
   push:
-     branches: 
-       - master
-  schedule:
+     #branches: 
+       #- master
+  #schedule:
     - cron: 0 20 * * *
   # release:
   #   types: [published]
